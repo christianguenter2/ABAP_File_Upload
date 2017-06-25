@@ -88,6 +88,7 @@ CLASS zcl_server_file_upload IMPLEMENTATION.
         EXIT.
       ENDIF.
 
+
       IF lines( lt_data ) = i_chunk_size.
 
         RAISE EVENT data_read
